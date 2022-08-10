@@ -1,3 +1,7 @@
+Body{
+    display: flex;
+    flex-direction:row;
+}
 .Right {
     width: 60px;
     height: 60px;

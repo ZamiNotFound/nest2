@@ -1,0 +1,11 @@
+.Names{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.Namuun:hover{
+width:10px;
+height:10px;
+Border-radius:8px;
+Background-color: grey;
+}
