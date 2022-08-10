@@ -1,0 +1,137 @@
+.Right {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 5px;
+    width: 35px;
+    background-color: aqua;
+    margin: 10px auto;
+    box-shadow: 0px 5px 50px 5px gray;
+}
+
+.top {
+    transition: all 0.5s;
+}
+
+.bottom {
+    transition: all 0.5s;
+}
+
+.middle {
+    transition: all 0.5s;
+}
+
+.Right:hover .top {
+    width: 20px;
+    height: 5px;
+    background-color: #b72a67;
+    transform: scale(20);
+    transform: translateY(7px) translateX(15px) rotateZ(35deg)
+}
+
+.Right:hover .bottom {
+    width: 20px;
+    height: 5px;
+    background-color: #b72a67;
+    transform: scale(20);
+    transform: translateY(-13px) translateX(13px) rotateZ(-35deg)
+}
+
+.Right:hover .middle {
+    background-color: #b72a67;
+    transform: translateY(-4px) translateX(5px) rotateZ(0deg)
+}
+
+.X {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nar {
+    height: 5px;
+    width: 35px;
+    background-color: aqua;
+    margin: 10px auto;
+    box-shadow: 0px 5px 50px 5px gray;
+}
+
+.X:hover .top {
+    background-color: #b72a67;
+    transform: translateY(15px) rotateZ(45deg)
+}
+
+.X:hover .bottom {
+    background-color: #b72a67;
+    transform: translateY(-15px) rotateZ(-45deg)
+}
+
+.X:hover .middle {
+    background-color: #b72a67;
+    width: 0;
+}
+
+.Left {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.sar {
+    height: 5px;
+    width: 35px;
+    background-color: aqua;
+    margin: 10px auto;
+    box-shadow: 0px 5px 50px 5px gray;
+}
+
+.Left:hover .top {
+    width: 20px;
+    height: 5px;
+    background-color: #b72a67;
+    transform: translateY(8px) translateX(7px) rotateZ(-35deg)
+}
+
+.Left:hover .bottom {
+    width: 20px;
+    height: 5px;
+    background-color: #b72a67;
+    transform: translateY(-8px) translateX(7px) rotateZ(35deg)
+}
+
+.Left:hover .middle {
+    background-color: #b72a67;
+    transform: translateY(0px) translate(15px) rotateZ(0deg)
+}
+
+.line {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.mar {
+    height: 5px;
+    width: 35px;
+    background-color: aqua;
+    margin: 10px auto;
+    box-shadow: 0px 5px 50px 5px gray;
+}
+
+.line:hover .top {
+    background-color: #b72a67;
+    transform: translateY(15px) translateX(0px) rotateZ(0deg)
+}
+
+.line:hover .bottom {
+    background-color: #b72a67;
+    transform: translateY(-15px) translateX(0px) rotateZ(0deg)
+}
+
+.line:hover .middle {
+    background-color: #b72a67;
+    transform: translateY(0px) translate(0px) rotateZ(0deg)
+}
